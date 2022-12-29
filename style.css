@@ -1,0 +1,103 @@
+html{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color:seashell;
+    opacity: 0.9;
+    background-color: black;
+}
+.headercontainer {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    border-bottom: 1px solid seashell;
+}
+.logo {
+    margin-left: 10px;
+}
+.nav li {
+    display: inline;
+    padding: 10px 10px;
+}
+.missioncontainer {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*aciyd4*_ga*Nzc4NjQ5OTYuMTY1MTY4NjQ3NA..*_ga_3LRZM6TM9L*MTY3MTgwOTc4NC4xNjEuMS4xNjcxODA5OTg5LjAuMC4w);
+    width: 1200px;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.missionstatement {
+    text-align: center;
+    background-color: black;
+    opacity: .9;
+    width: 100%;
+}
+.teaofmonthcontainer {
+    width:1000px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    
+}    
+.teacontainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.tea {
+    padding: 15px 15px;
+}
+.locationscontainer {
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*xjpraq*_ga*Nzc4NjQ5OTYuMTY1MTY4NjQ3NA..*_ga_3LRZM6TM9L*MTY3MTgxNjgyMy4xNjMuMS4xNjcxODE2ODMyLjAuMC4w);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1200px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 50px;
+   
+}
+.locations {
+    display: inline-flex;
+    margin-top: 15px;
+    opacity: 1;
+    margin-top: 30px;
+
+}
+.downtown {
+    background-color: black;
+    border: 1px solid black;
+    opacity: .9;
+    margin-right: 40px;
+    margin-left:40px;
+    width: 300px;
+}
+.eastbayside {
+    background-color: black;
+    opacity: .9;
+    border: 1px solid black;
+    margin-right: 40px;
+    margin-left:40px;
+    width: 300px;
+}
+.oakdale {
+    background-color: black;
+    border: 1px solid black;
+    opacity: .9;
+    margin-right: 40px;
+    margin-left:40px;
+    width: 300px;
+}
+.footer {
+    text-align: center;
+    margin-top: 40px;
+}
+
